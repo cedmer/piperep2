@@ -17,12 +17,13 @@
          
          <distributionManagement>
     <repository>
-      <uniqueVersion>false</uniqueVersion>
-      <id>corp1</id>
-      <name>Corporate Repository</name>
-      <url>settings.xml</url>
-      <layout>default</layout>
+        <id>releases</id>
+        <url>http://domain:port/content/repositories/releases</url>
     </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <url>http://domain:port/content/repositories/snapshots</url>
+    </snapshotRepository>
 </distributionManagement>
          
     <dependencies>
